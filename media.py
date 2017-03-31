@@ -18,5 +18,6 @@ class Movie():
         self.poster_image_url=movie_poster
         self.trailer_youtube_url=movie_trailer_url
 
+    #This method is an instace method which tells brower to open the link in variable self.trailer_youtube_url
     def show_trailer(self):
         webbrowser.open(self.trailer_youtube_url)
